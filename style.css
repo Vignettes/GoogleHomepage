@@ -63,13 +63,17 @@ li {
 #Lucky {
   width: 150px;
   height: 30px;
+  border: 0px;
 
 }
 
 #GoogleSearch {
   width: 150px;
   height: 30px;
+  border: 0px;
 }
-.search-container {
-  
+#SearchBar {
+  border-radius: 10px;
+  border: 1px #000 solid;
+ 
 }
