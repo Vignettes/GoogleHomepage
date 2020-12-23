@@ -1,0 +1,79 @@
+/*Google Logo Styling*/
+#googlelogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Top Nav Style*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.navleftside {
+  float: left;
+  text-decoration: none; 
+
+}
+
+.navrightside{
+  float: right;
+  text-decoration: none; 
+
+}
+
+
+
+
+/*Footer Related Styling*/
+.footleftside {
+  float: left;
+}
+
+.footrightside {
+  float: right;
+}
+
+.bottomnav {
+  background: lightgray;
+  opacity: .7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*User Logo*/
+#circle {
+  width: 50px;
+  height: 50px;
+  background: green;
+  border-radius: 100px;
+  text-align: center;
+}
+
+/*Search Related Styling*/
+#Lucky {
+  width: 150px;
+  height: 30px;
+  border: 0px;
+
+}
+
+#GoogleSearch {
+  width: 150px;
+  height: 30px;
+  border: 0px;
+}
+#SearchBar {
+  border-radius: 10px;
+  border: 1px #000 solid;
+ 
+}

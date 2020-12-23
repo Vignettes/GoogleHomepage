@@ -3,63 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Google It!</title>
+    <title>Google</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="reset.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <script src="script.js"></script>
-
-    <!--Top Navigation-->
-
-    <header>
-      <ul class"topnav"> 
-        <li><a href="" class="navleftside">About</a></li>
-        <li><a href="" class="navleftside">Store</a></li>
-        <li><a href="" class="navrightside">Gmail</a></li>
-        <li><a href="" class="navrightside">Images</a></li>
-      </ul>
-    </header>
-
-    <!--Top Navigation-->
-
-<!--User Logo-->
-
-    <div id="circle">G</div>
-
-<!--User Logo-->
-
-    <!--Google Logo-->
     
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="googlelogo">
-    <!--Google Logo-->
+    <div id="navbar">
+        <a href="#" id="about">About</a>
+        <a href="#" id="store">Store</a>
+        <a href="#" id="gmail">Gmail</a>
+        <a href="#" id="image">Images</a>
+        <a href="#" id="menu"><img src="Images/googlegrid.png" width="30" height="30"></a>
+        <a href="#" id="sign-in">Sign In</a>
+    </div>
 
-    <!--Input Search Form-->
-    
-    <main class="search-container">
-     <form action="search" method="GET">
-     <input type="text" placeholder="" name="search" id="SearchBar">
-     </form>
-     <button id="GoogleSearch">Google Search</button>
-     <button id="Lucky">Feeling Lucky!</button>
-    </main>
+    <div id="main">
+        <a href="#" id="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+        <input type="text" id="search">
+        <div id="flexbox">
+        <button id="google-search-btn">Google Search</button> 
+        <button id="feeling-lucky-btn">I'm Feeling Lucky</button>
+        </div>
+    </div>
 
-    <!--Input Search Form-->
-<!--added in test-->
-     <!--Bottom of Navigation-->
-    
-     <footer class="bottomnav">
-       <ul class="bottomnav"> 
-        <li><a href="" class="footleftside">Advertising</a></li>
-        <li><a href="" class="footleftside">Business</a></li>
-        <li><a href="" class="footrightside">How Search Works</a></li>
-        <li><a href="" class="footrightside">Privacy</a></li>
-        <li><a href="" class="footrightside">Terms</a></li>
-        <li><a href="" class="footrightside">Settings</a></li>
-    </ul>
-     </footer>
-     
-     <!--Bottom Navigation-->
+    <div id="footwrap">
+      <div id="footer">
+        <a href="#" id="advertising">Advertising</a>
+        <a href="#" id="business">Business</a>
+        <a href="#" id="hsw">How Search Works</a>
+        <a href="#" id="privacy">Privacy</a>
+        <a href="#" id="terms">Terms</a>
+        <a href="#" id="settings">Settings</a>
+      </div>
+    </div>
 
   </body>
-</html>
